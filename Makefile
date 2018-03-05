@@ -1,10 +1,10 @@
 # constants for defining the author, title, etc.
 FILENAME = thesis
-TITLE = Diplomaterv sablon Markdown leírónyelven
+TITLE = Strukturált formában tárolt programszöveg
 AUTHOR = Thier Richárd István
 MAJOR = Programtervező Informatikus MSc
-ADVISOR = Konzulens Elemér
-ADVISOR_TITLE = Doktorandusz hallgató
+ADVISOR = Králik Barnabás
+ADVISOR_TITLE = (volt) Doktorandusz hallgató
 UNIVERSITY = Eötvös Lóránd Tudományegyetem
 DEPARTMENT = Programozási nyelvek és fordítóprogramok tanszék
 RESEARCH_GROUP = 

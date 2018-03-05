@@ -51,7 +51,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p><strong>Témabejelentő</strong></p>
 <p>Az elfogadott és aláírt témabejelentőt a dolgozat második oldalaként szükséges elhelyezni, amelyet az adminisztrációban lehet átvenni. Itt tehát már a tanszéki pecséttel ellátott és aláírt lapot kell belefűzni (ezen oldal <em>helyett</em>, ez az oldal csak útmutatás). Az elektronikusan feltöltött dolgozatba már nem szabad beleszerkeszteni ezt a feladatkiírást.</p>
 <div id="header">
-<h1 class="title">Diplomaterv sablon Markdown leírónyelven</h1>
+<h1 class="title">Strukturált formában tárolt programszöveg</h1>
 <h2 class="author">Thier Richárd István</h2>
 </div>
 <div id="TOC">
@@ -81,9 +81,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul>
 </div>
 <h1 id="kivonat" class="unnumbered">Kivonat</h1>
-<p>Jelen dokumentum egy diplomamunka / diplomaterv sablon, amely formai keretet ad az Eötvös Lóránd Tudományegyetem Informatikai Karán végző hallgatók által elkészítendő (elsősorban MSc) diplomamunkának. A sablon használata opcionális. Ez a sablon Markdown leírónyelven készült, Pandoc rendszerrel fordítható le  Live vagy MiK  disztribúciókkal.</p>
+<p>TODO: Magyar kivonat</p>
 <h1 id="abstract" class="unnumbered">Abstract</h1>
-<p>This document is a skeleton for MSc theses of students at the Informatics Faculty of Eötvös Lóránd University - Budapest. The usage of this skeleton is optional. The skeleton was implemented in Markdown and can be compiled with Pandoc, using the  Live and or the MiK  compiler.</p>
+<p>In this document we investigate a structured source code representation and processing approach with a goal to create &quot;programming language engines&quot; with similar architectural choices of the so-called &quot;3D engines&quot;. These 3D engines are visibly dominating the field of 3D game and content development, but for a long time not only compilers, but also the games were created in ad-hoc ways, which later evolved into code &quot;libraries&quot;, &quot;frameworks&quot; and more recently/finally complete &quot;engines&quot;. While a code library is just a collection of useful methods, and a framework is just a set of rules that define an extensible system - engines provide an all-encompassing and structured way to handle the specifics of a field. Until now I do not know about any works that approach the field of compiler construction using this structured way.</p>
+<p>In this document we define, analyse and investigate the structured data-based approach and &quot;plugin scripting&quot; that serves as an extensible architecture of a modern C++14 implementation for the forementioned system. The system is called turul (Tree-Using Really Unorthodox Language) and the readable-binary representation of trees that are used through the solution is called &quot;tbuf&quot; (or turbo-buf) for its hoped processing speed. Despite we are talking about an &quot;engine&quot; for languages, the system can be thought as an extensible language with unseen metaprogramming support too and in the final naming we stick to this terminology.</p>
+<p>In our goal to investigate possibilities of more structured ways of compiler constructrion using the engine approach, the differences of the engine approach and compiler-compilers (like lex and yacc) and the underlying algorithms of the efficent implementation is documented as a reference with proper baseline analysis of the ideas. Implementation serves as an extensible engine that can serve as the basis for further research and useful not only in teaching - but for smaller experimental compiler construction to evaluate programming language ideas too.</p>
 <h1 id="bevezetés">Bevezetés</h1>
 <p>A bevezető tartalmazza a diplomaterv-kiírás elemzését, történelmi előzményeit, a feladat indokoltságát (a motiváció leírását), az eddigi megoldásokat, és ennek tükrében a hallgató megoldásának összefoglalását.</p>
 <p>A bevezető szokás szerint a diplomaterv felépítésével záródik, azaz annak rövid leírásával, hogy melyik fejezet mivel foglalkozik.</p>
