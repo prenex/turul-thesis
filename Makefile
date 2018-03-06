@@ -90,6 +90,8 @@ epub: compile-guideline-html compile-appendix-html
 
 build-latex:
 	pdflatex $(FILENAME).tex
+	# Until there is no entry for bibtex
+	# the below line can be uncommented!
 	bibtex $(FILENAME).aux
 	pdflatex $(FILENAME).tex
 	pdflatex $(FILENAME).tex

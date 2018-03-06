@@ -1,36 +1,35 @@
-Markdown-eszközök {#markdown-eszkozok}
-=================
+A strukturált formában tárolt programszöveg bevezetése {#strukturalt-bev}
+======================================================
 
-<div id="markdown-logo">
-![A Markdown nyelv logója\label{markdown-logo}](img/markdown-logo.png)
+TODO: rövid bevezető a fejezethez
 
-</div>
-
-A dokumentum lefordítása Linux alatt
+A tbuf-faszerkezetek reprezentációja
 ------------------------------------
 
-A dokumentum fordításához szükséges a Pandoc és a \TeX Live \LaTeX-disztribúció telepítése:
+TODO
 
-```bash
-sudo apt-get install texlive-base pandoc pandoc-citeproc
-```
+Egy tbuf-alapú FORTH-szerű programnyelv
+---------------------------------------
 
-A diplomaterv a `make` parancssal fordítható le, a konfigurációt a `Makefile` állomány tartalmazza.
+TODO
 
-Alapadatok megadása
--------------------
+Nyelvtanok leírása tbuf/tbnf alakban
+------------------------------------
 
-A diplomaterv alapadatait (cím, szerző, konzulens, konzulens titulusa) a `Makefile` fájlban lehet megadni a változók módosításával:
+TODO
 
-```
-AUTHOR=...
-TITLE=...
-```
+Levezetési fák ábrázolása tbuf szerkezetben
+-------------------------------------------
 
-Az alapértelmezett kimenet a PDF, de különböző kimeneteket is megadhatunk a `make` parancs céljának változatásával:
+TODO
 
-```bash
-make pdf
-make html
-make mobi
-```
+Szemantikai lépések ábrázolása tbuf-al
+--------------------------------------
+
+TODO
+
+Futtatókörnyezet-konfiguráció tbuf-al
+-------------------------------------
+
+TODO
+

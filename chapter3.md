@@ -1,25 +1,39 @@
-A dolgozat formai kivitele
-==========================
+A futtatómotor megvalósítása
+============================
 
-A dokumentum kialakítása során törekedtünk az ELTE IK MSc szakdolgozati tudnivalóknak való megfelelésre. Az itt található információk egy része is innen került átvételre. Az eredeti dokumentum az alábbi linken érhető el: <https://www.inf.elte.hu/content/programtervezo-informatikus-bsc-programozo-matematikus-szakdolgozat-programtervezo-matematikus-diplomamunka.t.1138?m=192>.
+TODO: Rövid bevezető a fejezethez
 
-A dolgozat kimérete
--------------------
+Célkitűzések
+------------
 
-Minimálisan elvárható 50, de az optimális kiméret 60--80 oldal (függelékkel együtt). A bírálók és a záróvizsga bizottság sem szereti kifejezetten a túl hosszú dolgozatokat, így a bruttó 90-100 oldalt nem érdemes jelentősen túlszárnyalni. Egyébként függetlenül a dolgozat kiméretétől, ha a dolgozat nem érdekfeszítő, akkor az olvasó már az elején a végét fogja várni. Érdemes zárt, önmagában is érthető művet alkotni.
+A futtatómotor megvalósítása során a következő szempontok vezették a tervezési lépéseket:
 
-A dolgozat nyelve
------------------
+* Lightweight és hatékony megoldások kialakítása szükséges, gyors fordítási időket támogatva.
+* Cél az alacsony hardver igény - akár régi egy-magos, vagy RPi is megfelelő kell legyen.
+* Újonnan fejlesztett rendszerként a modern C++14 megoldások alkalmazását helyezzük előtérbe.
+* Alapvetően open source, linux-alapú környezetekre telepíthető megoldást kell kialakítani.
+* Fontos továbbá, hogy a lehető legkevesebb külső függőséggel rendelkezzen a készülő rendszer.
+ 
+TODO: További Magyarázat
 
-Mivel Magyarországon a hivatalos nyelv a magyar, ezért alapértelmezésben magyarul kell megírni a dolgozatot. Aki külföldi posztgraduális képzésben akar részt venni, nemzetközi szintű tudományos kutatást szeretne végezni, vagy multinacionális cégnél akar elhelyezkedni, annak célszerű lehet angolul megírnia diplomadolgozatát. Mielőtt a hallgató az angol nyelvű verzió mellett dönt, erősen ajánlott mérlegelni, hogy ez mennyi többletmunkát fog a hallgatónak jelenteni fogalmazás és nyelvhelyesség terén, valamint -- nem utolsó sorban -- hogy ez mennyi többletmunkát fog jelenteni a konzulens, illetve a bíráló számára. Egy nehezen olvasható, netalán érthetetlen szöveg teher mindenki számára.
+Fordítási idejű C++ modulok
+---------------------------
 
-A dokumentum nyomdatechnikai kivitele
--------------------------------------
+TODO
 
-A diplomamunkát kemény kötésben kell leadni , 1 példányban. Fedőlapjának színe fekete, aranyszínű feliratokkal. A lap mérete: A4-es méret, színe fehér; betűméret: 12 pont. Sorokra vonatkozó megkötés: sorkizárt igazítás, 1,5-es sortávolság.
+Fordítási idejű C++ pluginok a szódefiníciókhoz X-macro technikával
+-------------------------------------------------------------------
 
-Standard margó:
-- belső: 3,5 cm
-- külső: 2,5 cm
-- alsó: 2,5 cm
-- felső: 2,5 cm
+TODO
+
+Egy megfelelő multi-stack implementáció
+---------------------------------------
+
+TODO
+
+Parser előtétmodulok
+--------------------
+
+TODO
+
+TODO: egyéb pontok - itt át kell gondolni ezt még

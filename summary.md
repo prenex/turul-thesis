@@ -1,4 +1,4 @@
 Összefoglaló
 ============
 
-A diplomaterv összefoglaló fejezete.
+TODO: A diplomaterv összefoglaló fejezete.
